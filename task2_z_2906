@@ -1,0 +1,5 @@
+number = int(input("Ввести целое двухзначное число от 10 до 99 ="))
+if number % 10 == 5:
+    print("YES")
+else:
+    print("NO")
